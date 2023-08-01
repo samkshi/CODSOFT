@@ -17,7 +17,7 @@ public class GuessRandomNumber {
 
 
                 int guess = getGuess(sc);
-                score++;
+                score++;       
 
                 if (guess == correctNum) {
                     System.out.println("Congratulations! You guessed the number Correctly.");
